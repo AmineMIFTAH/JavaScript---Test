@@ -96,7 +96,7 @@ F33();
 
 
 /* Display example expected otherwise */
-if (!compteur_error) {
-    document.getElementById("correct").innerHTML = "=> the table is correct"
+if (compteur_error) {
+    document.getElementById("correct").innerHTML = "&#10152; the table is correct"
 }
 
